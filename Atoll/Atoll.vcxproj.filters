@@ -27,7 +27,13 @@
     <ClInclude Include="angle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="gps.h">
+    <ClInclude Include="location.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="longitude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="latitude.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -36,6 +42,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="location.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="longitude.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

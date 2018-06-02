@@ -23,6 +23,6 @@ namespace GPS
 		const second_type second_;
 
 	public:
-		Angle(const degree_type degree, const minute_type minute, const second_type second);
+		Angle(const degree_type degree, const minute_type minute, const second_type second){};
 	};
 }

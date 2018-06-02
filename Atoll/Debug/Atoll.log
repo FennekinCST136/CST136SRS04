@@ -1,0 +1,29 @@
+﻿  stdafx.cpp
+  location.cpp
+d:\homework\cst136\cst136srs04\atoll\location.h(3): fatal error C1083: Cannot open include file: 'gps.h': No such file or directory
+  longitude.cpp
+d:\homework\cst136\cst136srs04\atoll\angle.h(8): error C2429: language feature 'terse static assert' requires compiler flag '/std:c++17'
+  d:\homework\cst136\cst136srs04\atoll\angle.h(27): note: see reference to class template instantiation 'GPS::Angle<min,max>' being compiled
+d:\homework\cst136\cst136srs04\atoll\angle.h(16): error C2061: syntax error: identifier 'Range'
+d:\homework\cst136\cst136srs04\atoll\angle.h(16): error C2059: syntax error: '>'
+d:\homework\cst136\cst136srs04\atoll\angle.h(17): error C2061: syntax error: identifier 'Range'
+d:\homework\cst136\cst136srs04\atoll\angle.h(18): error C2061: syntax error: identifier 'Range'
+d:\homework\cst136\cst136srs04\atoll\angle.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\angle.h(21): error C3646: 'degree_': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\angle.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\angle.h(22): error C3646: 'minute_': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\angle.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\angle.h(23): error C3646: 'second_': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C2146: syntax error: missing ')' before identifier 'degree'
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C3646: 'degree': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C3646: 'minute': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C2059: syntax error: ','
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C2146: syntax error: missing ')' before identifier 'degree'
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C3646: 'degree': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C3646: 'minute': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C2059: syntax error: ','
+  main.cpp
+d:\homework\cst136\cst136srs04\atoll\location.h(3): fatal error C1083: Cannot open include file: 'gps.h': No such file or directory
+  Generating Code...

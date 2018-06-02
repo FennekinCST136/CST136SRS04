@@ -1,0 +1,178 @@
+﻿  location.cpp
+d:\homework\cst136\cst136srs04\atoll\angle.h(8): error C2429: language feature 'terse static assert' requires compiler flag '/std:c++17'
+  d:\homework\cst136\cst136srs04\atoll\angle.h(27): note: see reference to class template instantiation 'GPS::Angle<min,max>' being compiled
+d:\homework\cst136\cst136srs04\atoll\angle.h(16): error C2061: syntax error: identifier 'Range'
+d:\homework\cst136\cst136srs04\atoll\angle.h(16): error C2059: syntax error: '>'
+d:\homework\cst136\cst136srs04\atoll\angle.h(17): error C2061: syntax error: identifier 'Range'
+d:\homework\cst136\cst136srs04\atoll\angle.h(18): error C2061: syntax error: identifier 'Range'
+d:\homework\cst136\cst136srs04\atoll\angle.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\angle.h(21): error C3646: 'degree_': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\angle.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\angle.h(22): error C3646: 'minute_': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\angle.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\angle.h(23): error C3646: 'second_': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C2146: syntax error: missing ')' before identifier 'degree'
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C3646: 'degree': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C3646: 'minute': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C2059: syntax error: ','
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C2059: syntax error: '{'
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C2146: syntax error: missing ')' before identifier 'degree'
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C3646: 'degree': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C3646: 'minute': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C2059: syntax error: ','
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C2059: syntax error: '{'
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+d:\homework\cst136\cst136srs04\atoll\latitude.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\latitude.h(11): error C2146: syntax error: missing ')' before identifier 'degree'
+d:\homework\cst136\cst136srs04\atoll\latitude.h(11): error C3646: 'degree': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\latitude.h(11): error C3646: 'minute': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\latitude.h(11): error C2059: syntax error: ','
+d:\homework\cst136\cst136srs04\atoll\latitude.h(11): error C2059: syntax error: '{'
+d:\homework\cst136\cst136srs04\atoll\latitude.h(11): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+d:\homework\cst136\cst136srs04\atoll\location.h(16): error C2512: 'GPS::Latitude': no appropriate default constructor available
+  d:\homework\cst136\cst136srs04\atoll\latitude.h(6): note: see declaration of 'GPS::Latitude'
+d:\homework\cst136\cst136srs04\atoll\location.h(16): error C2512: 'GPS::Longitude': no appropriate default constructor available
+  d:\homework\cst136\cst136srs04\atoll\longitude.h(6): note: see declaration of 'GPS::Longitude'
+  longitude.cpp
+d:\homework\cst136\cst136srs04\atoll\angle.h(8): error C2429: language feature 'terse static assert' requires compiler flag '/std:c++17'
+  d:\homework\cst136\cst136srs04\atoll\angle.h(27): note: see reference to class template instantiation 'GPS::Angle<min,max>' being compiled
+d:\homework\cst136\cst136srs04\atoll\angle.h(16): error C2061: syntax error: identifier 'Range'
+d:\homework\cst136\cst136srs04\atoll\angle.h(16): error C2059: syntax error: '>'
+d:\homework\cst136\cst136srs04\atoll\angle.h(17): error C2061: syntax error: identifier 'Range'
+d:\homework\cst136\cst136srs04\atoll\angle.h(18): error C2061: syntax error: identifier 'Range'
+d:\homework\cst136\cst136srs04\atoll\angle.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\angle.h(21): error C3646: 'degree_': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\angle.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\angle.h(22): error C3646: 'minute_': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\angle.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\angle.h(23): error C3646: 'second_': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C2146: syntax error: missing ')' before identifier 'degree'
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C3646: 'degree': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C3646: 'minute': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C2059: syntax error: ','
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C2059: syntax error: '{'
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C2146: syntax error: missing ')' before identifier 'degree'
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C3646: 'degree': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C3646: 'minute': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C2059: syntax error: ','
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C2059: syntax error: '{'
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  main.cpp
+d:\homework\cst136\cst136srs04\atoll\angle.h(8): error C2429: language feature 'terse static assert' requires compiler flag '/std:c++17'
+  d:\homework\cst136\cst136srs04\atoll\angle.h(27): note: see reference to class template instantiation 'GPS::Angle<min,max>' being compiled
+d:\homework\cst136\cst136srs04\atoll\angle.h(16): error C2061: syntax error: identifier 'Range'
+d:\homework\cst136\cst136srs04\atoll\angle.h(16): error C2059: syntax error: '>'
+d:\homework\cst136\cst136srs04\atoll\angle.h(17): error C2061: syntax error: identifier 'Range'
+d:\homework\cst136\cst136srs04\atoll\angle.h(18): error C2061: syntax error: identifier 'Range'
+d:\homework\cst136\cst136srs04\atoll\angle.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\angle.h(21): error C3646: 'degree_': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\angle.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\angle.h(22): error C3646: 'minute_': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\angle.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\angle.h(23): error C3646: 'second_': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C2146: syntax error: missing ')' before identifier 'degree'
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C3646: 'degree': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C3646: 'minute': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C2059: syntax error: ','
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C2059: syntax error: '{'
+d:\homework\cst136\cst136srs04\atoll\angle.h(26): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C2146: syntax error: missing ')' before identifier 'degree'
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C3646: 'degree': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C3646: 'minute': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C2059: syntax error: ','
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C2059: syntax error: '{'
+d:\homework\cst136\cst136srs04\atoll\longitude.h(11): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+d:\homework\cst136\cst136srs04\atoll\latitude.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\homework\cst136\cst136srs04\atoll\latitude.h(11): error C2146: syntax error: missing ')' before identifier 'degree'
+d:\homework\cst136\cst136srs04\atoll\latitude.h(11): error C3646: 'degree': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\latitude.h(11): error C3646: 'minute': unknown override specifier
+d:\homework\cst136\cst136srs04\atoll\latitude.h(11): error C2059: syntax error: ','
+d:\homework\cst136\cst136srs04\atoll\latitude.h(11): error C2059: syntax error: '{'
+d:\homework\cst136\cst136srs04\atoll\latitude.h(11): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+d:\homework\cst136\cst136srs04\atoll\location.h(16): error C2512: 'GPS::Latitude': no appropriate default constructor available
+  d:\homework\cst136\cst136srs04\atoll\latitude.h(6): note: see declaration of 'GPS::Latitude'
+d:\homework\cst136\cst136srs04\atoll\location.h(16): error C2512: 'GPS::Longitude': no appropriate default constructor available
+  d:\homework\cst136\cst136srs04\atoll\longitude.h(6): note: see declaration of 'GPS::Longitude'
+d:\homework\cst136\cst136srs04\atoll\main.cpp(16): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Latitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(16): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(16): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Longitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(16): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(16): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Location'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(16): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(17): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Latitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(17): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(17): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Longitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(17): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(17): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Location'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(17): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(18): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Latitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(18): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(18): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Longitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(18): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(18): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Location'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(18): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(19): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Latitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(19): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(19): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Longitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(19): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(19): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Location'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(19): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(20): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Latitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(20): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(20): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Longitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(20): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(20): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Location'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(20): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(21): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Latitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(21): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(21): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Longitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(21): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(21): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Location'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(21): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(22): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Latitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(22): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(22): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Longitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(22): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(22): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Location'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(22): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(23): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Latitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(23): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(23): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Longitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(23): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(23): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Location'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(23): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(24): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Latitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(24): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Longitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(24): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Location'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(25): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Latitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(25): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(25): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Longitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(25): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(25): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Location'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(25): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(26): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Latitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(26): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(26): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Longitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(26): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(26): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Location'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(26): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(27): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Latitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(27): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(27): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Longitude'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(27): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(27): error C2440: 'initializing': cannot convert from 'initializer list' to 'GPS::Location'
+  d:\homework\cst136\cst136srs04\atoll\main.cpp(27): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\homework\cst136\cst136srs04\atoll\main.cpp(28): error C2073: 'std::array<GPS::Location,12>::_Elems': elements of partially initialized array must have a default constructor
+d:\homework\cst136\cst136srs04\atoll\main.cpp(28): error C3931: 'GPS::Location': cannot call a function that has restriction specifiers that are incompatible with the ambient context
+  Generating Code...

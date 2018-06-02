@@ -9,9 +9,9 @@ class Range // You should re-code and simplify your SRS01 RangeInt
 private:
 	using value_type = T;
 
-	value_type lower_bound_{ std::numeric_limits<int>::min() };
-	value_type upper_bound_{ std::numeric_limits<int>::max() - 1 };
-	value_type value_{ std::numeric_limits<int>::max() };
+	value_type lower_bound_{ std::numeric_limits<value_type>::min() };
+	value_type upper_bound_{ std::numeric_limits<value_type>::max() };
+	value_type value_{ std::numeric_limits<value_type>::max() };
 
 
 
