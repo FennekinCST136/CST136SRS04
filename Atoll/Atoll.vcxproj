@@ -160,6 +160,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="latitude.cpp" />
     <ClCompile Include="location.cpp" />
     <ClCompile Include="longitude.cpp" />
     <ClCompile Include="main.cpp" />

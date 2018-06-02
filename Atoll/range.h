@@ -1,4 +1,5 @@
 ﻿#pragma once
+#include "stdafx.h"
 #include <limits>
 #include <string>
 
@@ -18,7 +19,7 @@ private:
 public:
 	Range(value_type const value)
 	{
-		static_assert (value >= lower_bound_ && value < upper_bound_);
+		static_assert (value >= lower_bound_ || value < upper_bound_);
 		value_ = value;
 	}
 
@@ -26,4 +27,6 @@ public:
 	{
 		return value_;
 	}
+
+	operator int() const { return value_; }
 };

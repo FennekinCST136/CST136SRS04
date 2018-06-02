@@ -1,15 +1,20 @@
 ﻿#include "stdafx.h"
 #include <array>
-#include "location.h"
-#include "latitude.h"
 #include <iostream>
 #include <vector>
+#include "location.h"
+#include "latitude.h"
 
 double sum_island_dis(const std::array<GPS::Location, 12>::const_iterator first_island, const std::array<GPS::Location, 12>::const_iterator last_island)
 {
 	std::vector<std::reference_wrapper<GPS::Location>> island(first_island, last_island);
-	std::sort(island.begin(), island.end());
+	//std::sort(island.begin(), island.end());
 	// look up lambda slide for sort routine
+	[](GPS::Location const first, GPS::Location const second)
+	{
+		return (first.get_lat() < second.get_lat());
+	};
+
 }
 
 
@@ -32,9 +37,10 @@ int main()
 		GPS::Location{ "Wake Island"s    , GPS::Latitude{ GPS::Latitude::Cardinal::N, 19, 17, 43 }, GPS::Longitude{ GPS::Longitude::Cardinal::E, 166, 37, 52 } },
 		GPS::Location{ "New Zealand"s    , GPS::Latitude{ GPS::Latitude::Cardinal::S, 41, 17,  0 }, GPS::Longitude{ GPS::Longitude::Cardinal::E, 174, 27,  0 } }
 	};
+
 	std::cout << sizeof island;
 
+	sum_island_dis(island.begin(), island.end());
 
     return 0;
 }
-
