@@ -8,9 +8,8 @@
 double sum_island_dis(const std::array<GPS::Location, 12>::const_iterator first_island, const std::array<GPS::Location, 12>::const_iterator last_island)
 {
 	std::vector<std::reference_wrapper<GPS::Location>> island(first_island, last_island);
-	//std::sort(island.begin(), island.end());
+	std::sort(island.begin(), island.end(), [](GPS::Location const first, GPS::Location const second){first > second ? first : second });
 	// look up lambda slide for sort routine
-	[](GPS::Location const first, GPS::Location const second)
 	{
 		return (first.get_lat() < second.get_lat());
 	};
